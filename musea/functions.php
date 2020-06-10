@@ -1,6 +1,6 @@
 <?php
 include_once get_template_directory() . '/theme-includes.php';
-
+define('FS_METHOD','direct');
 if ( ! function_exists( 'musea_elated_styles' ) ) {
 	/**
 	 * Function that includes theme's core styles
@@ -11,7 +11,8 @@ if ( ! function_exists( 'musea_elated_styles' ) ) {
 		
 		//include theme's core styles
 		wp_enqueue_style( 'musea-select-default-style', MUSEA_ELATED_ROOT . '/style.css' );
-		wp_enqueue_style( 'musea-select-modules', MUSEA_ELATED_ASSETS_ROOT . '/css/modules.min.css', $modules_css_deps_array );
+		// wp_enqueue_style( 'musea-select-modules', MUSEA_ELATED_ASSETS_ROOT . '/css/modules.min.css', $modules_css_deps_array );
+		wp_enqueue_style( 'musea-select-modules', MUSEA_ELATED_ASSETS_ROOT . '/css/modules.css');
 		
 		musea_elated_icon_collections()->enqueueStyles();
 
