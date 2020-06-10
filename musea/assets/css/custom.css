@@ -1,0 +1,15 @@
+.eltdf-drop-down .second .inner ul li a {
+	font-family: "EB Garamond" !important;
+	font-size: 13px;
+	text-transform: uppercase;
+	line-height: 2.33em;
+	font-style: normal;
+}
+.td-scroll-up {
+left: 10px;
+}
+
+.eltdf-woo-single-page .eltdf-single-product-summary .product_meta {
+	border: 1px solid #ccc;
+	padding: 20px;
+}
