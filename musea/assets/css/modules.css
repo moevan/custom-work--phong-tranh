@@ -29919,12 +29919,21 @@ aside.eltdf-sidebar .widget.widget_eltdf_instagram_widget .eltdf-widget-title,
 
 /*# sourceMappingURL=../../../../plugins/musea-twitter-feed/assets/css/widgets-map.css.map */
 
-body , a, p a, woocommerce-product-details__short-description {
+body , a, p a, woocommerce-product-details__short-description, .eltdf-dark-header .eltdf-page-header > div:not(.eltdf-sticky-header):not(.fixed) .eltdf-main-menu > ul > li > a, .eltdf-dark-header .eltdf-page-header > div:not(.eltdf-sticky-header):not(.fixed) .eltdf-side-menu-button-opener, .eltdf-dark-header .eltdf-top-bar .eltdf-side-menu-button-opener, .eltdf-side-menu-button-opener .eltdf-side-menu-title{
   color: #fff;
 }
-.eltdf-post-excerpt, .entry-title.eltdf-post-title{
+
+.eltdf-dark-header .eltdf-page-header>div:not(.eltdf-sticky-header):not(.fixed) .eltdf-shopping-cart-holder .eltdf-header-cart,.eltdf-shopping-cart-holder .eltdf-header-cart .eltdf-sc-opener-icon svg path, .eltdf-shopping-cart-holder .eltdf-header-cart .eltdf-sc-opener-icon svg rect,.eltdf-shopping-cart-holder .eltdf-header-cart.eltdf-header-cart-svg-path .eltdf-sc-opener-icon path, .eltdf-shopping-cart-holder .eltdf-header-cart.eltdf-header-cart-svg-path .eltdf-sc-opener-icon>*,.eltdf-side-menu-button-opener.eltdf-side-menu-button-opener-svg-path .eltdf-side-menu-icon > *, .eltdf-side-menu-button-opener.eltdf-side-menu-button-opener-svg-path .eltdf-side-menu-icon path,.eltdf-search-opener .eltdf-search-opener-wrapper svg circle, .eltdf-search-opener .eltdf-search-opener-wrapper svg line,.eltdf-search-opener.eltdf-search-opener-svg-path .eltdf-search-opener-wrapper > *, .eltdf-search-opener.eltdf-search-opener-svg-path .eltdf-search-opener-wrapper path{
+
+  stroke: #fff;
+  color: #fff;
+}
+.eltdf-post-excerpt, .entry-title.eltdf-post-title, .owl-item .info , .entry-title.eltdf-pli-title a{
   color: #000;
 }
-body, .eltdf-content{
-  background-color: #848295;
+body, .eltdf-content, .eltdf-dark-header .eltdf-page-header > div:not(.fixed):not(.eltdf-sticky-header).eltdf-menu-area{
+  background-color: #56504a;
+}
+.eltdf-plc-holder .eltdf-plc-item .eltdf-plc-image-outer .eltdf-plc-text{
+  background-color: #fff;
 }
