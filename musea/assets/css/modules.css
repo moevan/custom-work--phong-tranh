@@ -29945,3 +29945,7 @@ body, .eltdf-content, .eltdf-dark-header .eltdf-page-header > div:not(.fixed):no
 .eltdf-plc-holder .eltdf-plc-item:hover .eltdf-plc-image-outer .eltdf-plc-text.thong-tin-tranh{
   background: none !important;
 }
+
+.eltdf-owl-slider .owl-nav .owl-prev svg polyline, .eltdf-owl-slider .owl-nav .owl-next svg polyline{
+  fill: #fff;
+}
