@@ -24,20 +24,25 @@ $params['title_styles'] = $this_object->getTitleStyles( $params );
                             <div class="eltdf-plc-text-inner ">
                                 <?php 
                                 // musea_elated_get_module_template_part( 'templates/parts/add-to-cart', 'woocommerce', '', $params ); 
-                                   
+                                echo "<span>Năm sáng tác: </span>";
                                      if(get_field('nam_sang_tac') != null){
-                                        echo "<span>Năm sáng tác: </span>";
+                                      
                                        echo get_field('nam_sang_tac');
-                                       echo '<br/>';
+                                     
                                      
                                     } ;
+                                    echo '<br/>';
+                                    echo "<span>Chất liệu: </span>";
+
                                     if(get_field('chat_lieu') != null){
-                                        echo "<span>Chất liệu: </span>";
+                                        
                                       echo   get_field('chat_lieu');
-                                      echo '<br/>';
+                                      
                                     } ;
+                                    echo '<br/>';
+                                    echo "<span>Kích thước: </span>";
                                     if(get_field('kich_thuoc') != null){
-                                        echo "<span>Kích thước: </span>";
+                                       
                                         echo get_field('kich_thuoc');
                                     } ;
 
