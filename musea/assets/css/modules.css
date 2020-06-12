@@ -29935,5 +29935,5 @@ body, .eltdf-content, .eltdf-dark-header .eltdf-page-header > div:not(.fixed):no
   background-color: #56504a;
 }
 .eltdf-plc-holder .eltdf-plc-item .eltdf-plc-image-outer .eltdf-plc-text{
-  background-color: #fff;
+  background-color: rgba(58, 47, 47, 0.63);
 }
