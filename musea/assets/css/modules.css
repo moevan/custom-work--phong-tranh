@@ -29937,3 +29937,7 @@ body, .eltdf-content, .eltdf-dark-header .eltdf-page-header > div:not(.fixed):no
 .eltdf-plc-holder .eltdf-plc-item .eltdf-plc-image-outer .eltdf-plc-text{
   background-color: rgba(58, 47, 47, 0.63);
 }
+
+.eltdf-plc-holder .eltdf-plc-item .eltdf-plc-image-outer .eltdf-plc-text{
+  position: relative !important;
+}
