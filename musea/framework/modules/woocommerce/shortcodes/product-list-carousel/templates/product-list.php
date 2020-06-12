@@ -8,12 +8,33 @@ $params['title_styles'] = $this_object->getTitleStyles( $params );
 			<div class="eltdf-plc-item">
 				<div class="eltdf-plc-image-outer">
                     <div class="eltdf-plc-image">
-                        <?php musea_elated_get_module_template_part( 'templates/parts/image', 'woocommerce', '', $params ); ?>
+                        <?php  musea_elated_get_module_template_part( 'templates/parts/image', 'woocommerce', '', $params ); ?>
+                      
+
                     </div>
                     <div class="eltdf-plc-text" <?php echo musea_elated_get_inline_style( $shader_styles ); ?>>
                         <div class="eltdf-plc-text-outer">
-                            <div class="eltdf-plc-text-inner">
-                                <?php musea_elated_get_module_template_part( 'templates/parts/add-to-cart', 'woocommerce', '', $params ); ?>
+                            <div class="eltdf-plc-text-inner thong-tin-tranh">
+                                <?php 
+                                // musea_elated_get_module_template_part( 'templates/parts/add-to-cart', 'woocommerce', '', $params ); 
+                                   
+                                     if(get_field('nam_sang_tac') != null){
+                                        echo "<span>Năm sáng tác: </span>";
+                                       echo get_field('nam_sang_tac');
+                                       echo '<br/>';
+                                     
+                                    } ;
+                                    if(get_field('chat_lieu') != null){
+                                        echo "<span>Chất liệu: </span>";
+                                      echo   get_field('chat_lieu');
+                                      echo '<br/>';
+                                    } ;
+                                    if(get_field('kich_thuoc') != null){
+                                        echo "<span>Kích thước: </span>";
+                                        echo get_field('kich_thuoc');
+                                    } ;
+
+                                     ?>
                             </div>
                         </div>
                     </div>
