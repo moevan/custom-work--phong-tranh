@@ -14,8 +14,18 @@ $params['title_styles'] = $this_object->getTitleStyles( $params );
                     </div>
                     
                         <p  class="entry-title eltdf-plc-title" style="text-align: center; margin-top: 4px">
-                        <?php 
+                        <?php
+                      
+                     
+                            echo get_post(get_post_meta(get_the_ID(), "author", true))->post_title;
+                            echo ', ';
+                            the_field('nam_sang_tac');
+                            echo ', ';
                             the_title();
+                            echo ', ';
+                            the_field('kich_thuoc') 
+
+                            
                         ?>
                         </p>
                    

@@ -29952,3 +29952,9 @@ body, .eltdf-content, .eltdf-dark-header .eltdf-page-header > div:not(.fixed):no
 .eltdf-page-grid .eltdf-grid-line:before{
   background: #ffffff1f;
 }
+.eltdf-plc-holder .eltdf-plc-item .eltdf-plc-image-outer .eltdf-plc-text-inner {
+  display: none !important;
+}
+.eltdf-plc-holder .eltdf-plc-item .eltdf-plc-title{
+  font-size: 12px;
+}
