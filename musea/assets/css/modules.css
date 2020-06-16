@@ -29958,3 +29958,30 @@ body, .eltdf-content, .eltdf-dark-header .eltdf-page-header > div:not(.fixed):no
 .eltdf-plc-holder .eltdf-plc-item .eltdf-plc-title{
   font-size: 12px;
 }
+.ten-tranh{
+font-size: 14px;
+text-transform: uppercase;
+}
+
+
+
+.accordion{
+  cursor :pointer;
+}
+.accordion:after {
+  content: '\25BC';
+ 
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.accordion.active:after {
+  content: "\25B2";
+}
+.panel{
+  display:none;
+}
+.panel.active {
+  display: block
+}

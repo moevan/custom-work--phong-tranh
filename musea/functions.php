@@ -217,6 +217,7 @@ if ( ! function_exists( 'musea_elated_scripts' ) ) {
 		}
 
 		wp_enqueue_script( 'musea-select-modules', MUSEA_ELATED_ASSETS_ROOT . '/js/modules.min.js', array( 'jquery' ), false, true );
+		wp_enqueue_script( 'customize', MUSEA_ELATED_ASSETS_ROOT . '/js/customize.js', array( 'jquery' ), false, true );
 		
 		if ( musea_elated_dashboard_page() || musea_elated_has_dashboard_shortcodes() ) {
 			$dash_array_deps = array(
